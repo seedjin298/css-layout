@@ -9,4 +9,4 @@
 - [x] align-content
 - [x] flex-grow
 - [x] flex-shrink
-- [ ] flex-basis
+- [x] flex-basis
