@@ -1,8 +1,7 @@
 .wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   height: 100vh;
 }
 
@@ -11,4 +10,26 @@
   height: 200px;
   background: peru;
   color: white;
+  font-size: 50px;
+}
+
+/* .box:nth-child(2) {
+  align-self: center;
+}
+
+.box:nth-child(3) {
+  align-self: flex-end;
+} */
+
+.box:nth-child(1) {
+  order: 2;
+}
+
+.box:nth-child(2) {
+  order: 1;
+  align-self: center;
+}
+
+.box:nth-child(3) {
+  order: 3;
 }
