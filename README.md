@@ -26,8 +26,8 @@
 - [x] grid-column
 - [x] grid-row
 - [x] grid-template
-- [ ] justify-items
-- [ ] align-items
+- [x] justify-items
+- [x] align-items
 - [ ] justify-content
 - [ ] align-content
 - [ ] grid-auto-columns
