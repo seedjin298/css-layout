@@ -1,21 +1,24 @@
 @import "_variables";
+@import "_mixins";
 
-h2 {
-  color: $bg;
-}
+// a {
+//   margin-bottom: 10px;
+//   &:nth-child(odd) {
+//     @include link("odd");
+//   }
 
-.box {
-  margin-top: 20px;
-  h2 {
-    color: blue;
-    &:hover {
-      color: red;
-    }
+//   &:nth-child(even) {
+//     @include link('even');
+//   }
+// }
+
+a {
+  margin-bottom: 10px;
+  &:nth-child(odd) {
+    @include link(blue);
   }
-  button {
-    color: red;
-  }
-  &:hover {
-    background-color: green;
+
+  &:nth-child(even) {
+    @include link(red);
   }
 }
