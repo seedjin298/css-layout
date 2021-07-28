@@ -28,8 +28,10 @@
 - [x] grid-template
 - [x] justify-items
 - [x] align-items
-- [ ] justify-content
-- [ ] align-content
+- [x] place-items
+- [x] justify-content
+- [x] align-content
+- [x] place-content
 - [ ] grid-auto-columns
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
